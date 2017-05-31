@@ -11,8 +11,7 @@ function charPos(str){
           result[temp].push(i);
       }
       else{ // the field does not exitst, then create a field and set the count to 1
-        result[temp] = new Array();
-        result[temp].push(i);
+        result[temp] = [i];
       }
   }
   return result;
